@@ -275,24 +275,4 @@ KeyError: State dictionaries have mismatched keys.
 ### Memory Issues
 
 **Solution**: Use `--device cpu` and ensure sufficient RAM. For large models (>13B), consider using quantization or gradient checkpointing.
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{adaptive_linear_merge,
-  title = {Adaptive Linear Model Merging},
-  author = {Your Name},
-  year = {2025},
-  url = {https://github.com/yourusername/adaptive_linear}
-}
 ```
-
-## License
-
-This project is provided for research and educational purposes.
-
-## Contact
-
-For questions or issues, please open a GitHub issue or contact [your-email@example.com].
